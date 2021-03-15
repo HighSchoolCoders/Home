@@ -36,6 +36,6 @@ const projects = [
 
 $(function () {
   for (var a = 0; a < projects.length; a++){
-    $('#proj-list').append('<div class="col-md-6"><a href="' + projects[a].link + '"><div class="project-ui"><img class="usn" src="'+ projects[a].src +'" alt="'+ projects[a].name +'"><br><span class="pd">'+ projects[a].name +'</span></div></a></div>');
+    $('#proj-list').append('<div class="col-md-6"><a href="' + projects[a].link + '" target="_blank"><div class="project-ui"><img class="usn" src="'+ projects[a].src +'" alt="'+ projects[a].name +'"><br><span class="pd">'+ projects[a].name +'</span></div></a></div>');
   }
 });
